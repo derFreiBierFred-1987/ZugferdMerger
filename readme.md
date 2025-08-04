@@ -13,12 +13,12 @@ Das Tool PDF24 muss im Pfad von Windows, bzw. dem aktuellen Benutzer liegen.
 ## Nutzung
 
 - Starten
-- PDF Datei ausw‰hlen
+- PDF Rechnungs Datei ausw‰hlen
 - Zugferd XML Datei ausw‰hlen
 - Zieldatei ausw‰hlen (Standartm‰ﬂig wird hier der Dateiname der PDF Datei mit dem Suffix _zugferd_YYYYMMDD_HH24MISS.pdf vorausgew‰hlt)
 - Dateien verarbeiten klicken
 
-Heraus kommt eine PDF/A Datei im xrechnung:cii Format.
+Heraus kommt eine PDF/A Datei im zugferd:xrechnung Format.
 
 Diese kann validiert werden mit einem Zugferd Validator wie zum Beispiel:
 

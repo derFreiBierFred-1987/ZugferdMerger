@@ -83,7 +83,7 @@ Public Class Form1
 
     Private Function ProcessFiles(pdfPath As String, xmlPath As String, outputPath As String) As Boolean
         Try
-            Dim pdf24Command As String = $"pdf24-Toolbox.exe -createInvoice ""{xmlPath}"" ""{outputPath}"" -pdfaFile ""{pdfPath}"" -outputType xrechnung:cii "
+            Dim pdf24Command As String = $"pdf24-Toolbox.exe -createInvoice ""{xmlPath}"" ""{outputPath}"" -pdfaFile ""{pdfPath}"" -outputType zugferd:xrechnung -passthrough"
 
             Using process As New Process()
                 process.StartInfo.FileName = "cmd.exe"
